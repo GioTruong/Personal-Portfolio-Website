@@ -165,11 +165,15 @@ section {
     height: 80vh;
 }
 
-.section__pic-container {
+.section_pic_container {
     display: flex;
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+.section_pic_container img {
+    border-radius: 50%;
 }
 
 .section__text {
@@ -300,7 +304,7 @@ section {
     height: 80%;
 }
 
-.section__pic-container {
+.section_pic_container {
     height: 400px;
     width: 400px;
     margin: auto 0;
@@ -421,7 +425,6 @@ footer {
 
 footer p {
     text-align: center;
-    gap: 10px;
     height: 50%;
 }
 
